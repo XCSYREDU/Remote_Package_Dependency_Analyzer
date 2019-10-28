@@ -1,0 +1,33 @@
+
+                                      CodeAnalysis - Version 1.8
+    ==============================================================================================
+     Mon Dec  3 22:36:14 2018
+     Path: "C:\Users\xiaoc\Desktop\pj3\NavigationServer"
+     Args: NavigatorServer.cs, /v, /m, /r, /f, /p
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1      78
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+        NavigatorServer.cs   namespace                          Navigator      36     518      77
+        NavigatorServer.cs       class                    NavigatorServer      38     516      76
+        NavigatorServer.cs    function                    NavigatorServer      49       5       1
+        NavigatorServer.cs    function              initializeEnvironment      57       6       1
+        NavigatorServer.cs    function               initializeDispatcher      66     453      65
+        NavigatorServer.cs    function                               Main     526      26       4
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+        NavigatorServer.cs    function               initializeDispatcher      66     453      65
+
+
+
+    searched     7 dirs
+   processed     1 files

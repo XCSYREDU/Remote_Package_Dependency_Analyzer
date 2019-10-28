@@ -1,0 +1,158 @@
+
+                                      CodeAnalysis - Version 1.8
+    ==============================================================================================
+     Mon Dec  3 22:37:17 2018
+     Path: "C:\Users\xiaoc\Desktop\pj3\NavigatorClient"
+     Args: *.cs, MainWindow.xaml.cs, /v, /m, /r, /f, /p
+                                                                               
+           Code Metrics - Start Line, Size (lines/code), and Complexity (number of scopes)
+    ==============================================================================================
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                             namespace                   Global Namespace       1       1     193
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                  App.g.cs   namespace                          Navigator      35      35       4
+                  App.g.cs       class                                App      41      29       3
+                  App.g.cs    function       DebuggerNonUserCodeAttribute      48       8       1
+                  App.g.cs    function                 STAThreadAttribute      63       5       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+                App.g.i.cs   namespace                          Navigator      35      35       4
+                App.g.i.cs       class                                App      41      29       3
+                App.g.i.cs    function       DebuggerNonUserCodeAttribute      48       8       1
+                App.g.i.cs    function                 STAThreadAttribute      63       5       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+               App.xaml.cs   namespace                          Navigator      10       8       2
+               App.xaml.cs       class                                App      15       3       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+            CodePopUp.g.cs   namespace                          Navigator      35      54       6
+            CodePopUp.g.cs       class                          CodePopUp      41      48       5
+            CodePopUp.g.cs    function       DebuggerNonUserCodeAttribute      58      13       2
+            CodePopUp.g.cs    function       DebuggerNonUserCodeAttribute      78       9       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+          CodePopUp.g.i.cs   namespace                          Navigator      35      54       6
+          CodePopUp.g.i.cs       class                          CodePopUp      41      48       5
+          CodePopUp.g.i.cs    function       DebuggerNonUserCodeAttribute      58      13       2
+          CodePopUp.g.i.cs    function       DebuggerNonUserCodeAttribute      78       9       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+         CodePopUp.xaml.cs   namespace                          Navigator      22       9       3
+         CodePopUp.xaml.cs       class                          CodePopUp      24       7       2
+         CodePopUp.xaml.cs    function                          CodePopUp      26       3       1
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+           MainWindow.g.cs   namespace                          Navigator      35     390       6
+           MainWindow.g.cs       class                         MainWindow      41     384       5
+           MainWindow.g.cs    function       DebuggerNonUserCodeAttribute     218      13       2
+           MainWindow.g.cs    function       DebuggerNonUserCodeAttribute     238     185       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+         MainWindow.g.i.cs   namespace                          Navigator      35     390       6
+         MainWindow.g.i.cs       class                         MainWindow      41     384       5
+         MainWindow.g.i.cs    function       DebuggerNonUserCodeAttribute     218      13       2
+         MainWindow.g.i.cs    function       DebuggerNonUserCodeAttribute     238     185       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+        MainWindow.xaml.cs   namespace                          Navigator      48     463      68
+        MainWindow.xaml.cs       class                         MainWindow      50     461      67
+        MainWindow.xaml.cs    function                         MainWindow      58      15       1
+        MainWindow.xaml.cs    function              initializeEnvironment      76       6       1
+        MainWindow.xaml.cs    function        initializeMessageDispatcher      86     143      30
+        MainWindow.xaml.cs    function                      rcvThreadProc     232      14       3
+        MainWindow.xaml.cs    function                             Invoke     242       1       1
+        MainWindow.xaml.cs    function                      Window_Closed     249       8       1
+        MainWindow.xaml.cs    function                     Window_Closing     260       2       1
+        MainWindow.xaml.cs    function                        getTopFiles     265      14       3
+        MainWindow.xaml.cs    function                     localTop_Click     282       4       1
+        MainWindow.xaml.cs    function        localFiles_MouseDoubleClick     289      15       3
+        MainWindow.xaml.cs    function                      localUp_Click     307       8       1
+        MainWindow.xaml.cs    function         localDirs_MouseDoubleClick     318       6       1
+        MainWindow.xaml.cs    function                    RemoteTop_Click     331      13       1
+        MainWindow.xaml.cs    function                       addAll_Click     346      12       2
+        MainWindow.xaml.cs    function       remoteFiles_MouseDoubleClick     362       4       1
+        MainWindow.xaml.cs    function                     RemoteUp_Click     369      18       1
+        MainWindow.xaml.cs    function        remoteDirs_MouseDoubleClick     394      12       1
+        MainWindow.xaml.cs    function                      select_button     408      10       1
+        MainWindow.xaml.cs    function                      remove_button     420      10       1
+        MainWindow.xaml.cs    function                       clear_button     432      10       1
+        MainWindow.xaml.cs    function                   TypeTable_button     444      12       2
+        MainWindow.xaml.cs    function                       Depen_button     458      12       2
+        MainWindow.xaml.cs    function                          SC_button     472      12       2
+        MainWindow.xaml.cs    function                          importone     486       8       1
+        MainWindow.xaml.cs    function                          importAll     496      12       2
+        MainWindow.xaml.cs   namespace                          Navigator      48     463      68
+        MainWindow.xaml.cs       class                         MainWindow      50     461      67
+        MainWindow.xaml.cs    function                         MainWindow      58      15       1
+        MainWindow.xaml.cs    function              initializeEnvironment      76       6       1
+        MainWindow.xaml.cs    function        initializeMessageDispatcher      86     143      30
+        MainWindow.xaml.cs    function                      rcvThreadProc     232      14       3
+        MainWindow.xaml.cs    function                             Invoke     242       1       1
+        MainWindow.xaml.cs    function                      Window_Closed     249       8       1
+        MainWindow.xaml.cs    function                     Window_Closing     260       2       1
+        MainWindow.xaml.cs    function                        getTopFiles     265      14       3
+        MainWindow.xaml.cs    function                     localTop_Click     282       4       1
+        MainWindow.xaml.cs    function        localFiles_MouseDoubleClick     289      15       3
+        MainWindow.xaml.cs    function                      localUp_Click     307       8       1
+        MainWindow.xaml.cs    function         localDirs_MouseDoubleClick     318       6       1
+        MainWindow.xaml.cs    function                    RemoteTop_Click     331      13       1
+        MainWindow.xaml.cs    function                       addAll_Click     346      12       2
+        MainWindow.xaml.cs    function       remoteFiles_MouseDoubleClick     362       4       1
+        MainWindow.xaml.cs    function                     RemoteUp_Click     369      18       1
+        MainWindow.xaml.cs    function        remoteDirs_MouseDoubleClick     394      12       1
+        MainWindow.xaml.cs    function                      select_button     408      10       1
+        MainWindow.xaml.cs    function                      remove_button     420      10       1
+        MainWindow.xaml.cs    function                       clear_button     432      10       1
+        MainWindow.xaml.cs    function                   TypeTable_button     444      12       2
+        MainWindow.xaml.cs    function                       Depen_button     458      12       2
+        MainWindow.xaml.cs    function                          SC_button     472      12       2
+        MainWindow.xaml.cs    function                          importone     486       8       1
+        MainWindow.xaml.cs    function                          importAll     496      12       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+    NavigatorClient.g.i.cs   namespace                          Navigator      35     209       6
+    NavigatorClient.g.i.cs       class                         MainWindow      41     203       5
+    NavigatorClient.g.i.cs    function       DebuggerNonUserCodeAttribute     130      13       2
+    NavigatorClient.g.i.cs    function       DebuggerNonUserCodeAttribute     150      92       2
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+     Resources.Designer.cs   namespace                          Navigator      12      60       9
+     Resources.Designer.cs       class                          Resources      26      46       8
+     Resources.Designer.cs    function           SuppressMessageAttribute      34       2       1
+     Resources.Designer.cs    function           EditorBrowsableAttribute      42      11       3
+     Resources.Designer.cs    function           EditorBrowsableAttribute      60      10       3
+
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+      Settings.Designer.cs   namespace                          Navigator      12      19       4
+      Settings.Designer.cs       class                           Settings      18      13       3
+
+                          Functions Exceeding Metric Limits and Public Data
+    ==============================================================================================
+                 file name        type                               name    line    size    cplx
+    -----------------------  ----------  ---------------------------------  ------  ------  ------
+           MainWindow.g.cs    function       DebuggerNonUserCodeAttribute     238     185       2
+         MainWindow.g.i.cs    function       DebuggerNonUserCodeAttribute     238     185       2
+        MainWindow.xaml.cs    function        initializeMessageDispatcher      86     143      30
+        MainWindow.xaml.cs    function        initializeMessageDispatcher      86     143      30
+    NavigatorClient.g.i.cs    function       DebuggerNonUserCodeAttribute     150      92       2
+
+
+
+    searched     7 dirs
+   processed    17 files

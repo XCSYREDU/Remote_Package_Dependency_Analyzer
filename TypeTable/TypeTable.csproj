@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{019EB3C8-ED38-40F5-A6BB-179783702706}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>TypeTable</RootNamespace>
+    <AssemblyName>TypeTable</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG;TEST_TypeTable</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="TypeTable.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Display\Display.csproj">
+      <Project>{7f6aee33-e7e5-4b83-b505-8be313defeb2}</Project>
+      <Name>Display</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Element\Element.csproj">
+      <Project>{49535db1-e8e6-4c4e-a9be-643faa9312f4}</Project>
+      <Name>Element</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FileMgr\FileMgr.csproj">
+      <Project>{5f6e83aa-9d11-44d0-ba97-206619985c01}</Project>
+      <Name>FileMgr</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SemiExp\SemiExp.csproj">
+      <Project>{8cd2f63b-9294-43bb-9f60-4fa966ebc48c}</Project>
+      <Name>SemiExp</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Toker\Toker.csproj">
+      <Project>{4412581d-6195-495a-b65e-5a44e549e0c5}</Project>
+      <Name>Toker</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TypeAnalysis\TypeAnalysis.csproj">
+      <Project>{f648274d-662c-4a6f-81c6-8a2c74dae085}</Project>
+      <Name>TypeAnalysis</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

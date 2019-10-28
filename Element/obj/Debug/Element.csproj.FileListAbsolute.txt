@@ -1,0 +1,17 @@
+C:\Users\xiaoc\Desktop\pj2\Element\bin\Debug\Element.dll
+C:\Users\xiaoc\Desktop\pj2\Element\bin\Debug\Element.pdb
+C:\Users\xiaoc\Desktop\pj2\Element\obj\Debug\Element.csproj.CoreCompileInputs.cache
+C:\Users\xiaoc\Desktop\pj2\Element\obj\Debug\Element.dll
+C:\Users\xiaoc\Desktop\pj2\Element\obj\Debug\Element.pdb
+C:\Users\xiaoc\Desktop\pj3\Element\bin\Debug\Element.dll
+C:\Users\xiaoc\Desktop\pj3\Element\bin\Debug\Element.pdb
+C:\Users\xiaoc\Desktop\pj3\Element\obj\Debug\Element.csprojAssemblyReference.cache
+C:\Users\xiaoc\Desktop\pj3\Element\obj\Debug\Element.csproj.CoreCompileInputs.cache
+C:\Users\xiaoc\Desktop\pj3\Element\obj\Debug\Element.dll
+C:\Users\xiaoc\Desktop\pj3\Element\obj\Debug\Element.pdb
+C:\Users\xiaoc\Desktop\pj4_Xiao_Chen\Element\bin\Debug\Element.dll
+C:\Users\xiaoc\Desktop\pj4_Xiao_Chen\Element\bin\Debug\Element.pdb
+C:\Users\xiaoc\Desktop\pj4_Xiao_Chen\Element\obj\Debug\Element.csprojAssemblyReference.cache
+C:\Users\xiaoc\Desktop\pj4_Xiao_Chen\Element\obj\Debug\Element.csproj.CoreCompileInputs.cache
+C:\Users\xiaoc\Desktop\pj4_Xiao_Chen\Element\obj\Debug\Element.dll
+C:\Users\xiaoc\Desktop\pj4_Xiao_Chen\Element\obj\Debug\Element.pdb
